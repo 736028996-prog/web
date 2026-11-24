@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zhuo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <p class="eyebrow">Personal site</p>
+      <h1>Zhuo</h1>
+      <p class="bio">软件工程师。这里是一个最简单的个人页，下面放了一台计算器。</p>
+    </header>
+
+    <section class="calc" aria-label="计算器">
+      <div class="display" id="display">0</div>
+      <div class="keys">
+        <button type="button" data-action="clear">C</button>
+        <button type="button" data-action="sign">±</button>
+        <button type="button" data-action="percent">%</button>
+        <button type="button" data-op="÷" class="op">÷</button>
+
+        <button type="button" data-digit="7">7</button>
+        <button type="button" data-digit="8">8</button>
+        <button type="button" data-digit="9">9</button>
+        <button type="button" data-op="×" class="op">×</button>
+
+        <button type="button" data-digit="4">4</button>
+        <button type="button" data-digit="5">5</button>
+        <button type="button" data-digit="6">6</button>
+        <button type="button" data-op="−" class="op">−</button>
+
+        <button type="button" data-digit="1">1</button>
+        <button type="button" data-digit="2">2</button>
+        <button type="button" data-digit="3">3</button>
+        <button type="button" data-op="+" class="op">+</button>
+
+        <button type="button" data-digit="0" class="zero">0</button>
+        <button type="button" data-action="dot">.</button>
+        <button type="button" data-action="equals" class="eq">=</button>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
