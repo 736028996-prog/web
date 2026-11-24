@@ -10,7 +10,7 @@
   <main class="page">
     <header class="intro">
       <p class="eyebrow">Personal site</p>
-      <h1>Zhuo</h1>
+      <h1>mimo</h1>
       <p class="bio">软件工程师。这里是一个最简单的个人页，下面放了一台计算器。</p>
     </header>
 
@@ -42,7 +42,20 @@
         <button type="button" data-action="equals" class="eq">=</button>
       </div>
     </section>
+
+    <aside class="snake" aria-label="贪吃蛇">
+      <div class="snake-bar">
+        <span class="snake-title">Snake</span>
+        <span class="snake-score" id="snake-score">0</span>
+      </div>
+      <canvas id="snake-canvas" width="240" height="240" aria-label="贪吃蛇画布"></canvas>
+      <div class="snake-actions">
+        <button type="button" id="snake-start" class="eq">开始</button>
+        <p class="snake-hint">方向键 / WASD 直接玩</p>
+      </div>
+    </aside>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>
